@@ -156,6 +156,7 @@
 .homepage img{
     width: 100px;
     height: 100px;
+    margin-top: -10rem;
 }
 
 .homepage .author{
