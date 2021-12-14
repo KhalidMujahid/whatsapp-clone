@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 15pt;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    display: none;
+}
+
+.homepage{
+    display: block;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    background-color: #075e54;
+    color: #fff;
+    bottom: 2rem;
+    right: .5rem;
+}
+
+.header{
+    background-color: #075e54;
+    height: 5rem;
+    padding: .6rem;
+}
+
+.top-header .brand-name h1{
+    /*margin-left: 1rem;*/
+}
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.icons span{
+    margin-left: .8rem;
+}
+
+.bottom-header{
+    width: 100%;
+}
+
+.bottom-header ul{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 95%;
+    margin-top: 2.1rem;
+}
+
+.bottom-header ul li,i{
+    font-size: 12pt;
+}
+
+.bottom-header ul li{
+    display: flex;
+    align-items: center;
+}
+
+.bottom-header ul li:nth-child(2){
+    border-bottom: 4px solid #fff;
+}
+
+.content{
+    margin-top: .1rem;
+    width: 100%;
+}
+
+.chat-card{
+    display: flex;
+    height: 2.9rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.chat-image{
+    display: flex;
+}
+
+.message-box{
+    margin-left: .4rem;
+}
+
+.chat-message .times span{
+    font-size: .6rem;
+    margin-right: .2rem;
+}
+
+.chat-message{
+    display: flex;
+    flex-direction: column;
+}
+
+.message-box p{
+    font-size: .8rem;
+    color: rgba(0,0,0,.4);
+    margin-top: .5rem;
+}
+
+.message-box h6{
+    font-size: .9rem;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.times p{
+    font-size: .5rem;
+    background-color: #075e54;
+    width: 32%;
+    height: 18px;
+    padding: .2rem;
+    border-radius: 100%;
+    color: #fff;
+    margin-left: 1rem;
+}
+
+.chat-image img{
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+}
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.homepage img{
+    width: 100px;
+    height: 100px;
+}
+
+.homepage .author{
+    position: fixed;
+    bottom: 1rem;
+}
+
+.author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage .author p{
+    color: #075e54;
+    margin-bottom: .7rem;
+}
+
+.homepage .author h6{
+    color: #075e54;
+}
